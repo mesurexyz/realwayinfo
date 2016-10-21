@@ -1,0 +1,130 @@
+﻿/* 企业信息管理样式表 */
+/*全局定义开始*/
+*
+{margin:0; padding:0}
+
+html{
+    overflow-x:hidden
+}
+
+body{background:#FFFFFF;}
+
+table,td,th
+{
+	font-size:12px;
+	font-family: "微软雅黑",Arial;
+	color:#444444;
+	line-height:1.5em;
+}
+
+a 
+{
+	color:#13198D; 
+	text-decoration:none
+}
+
+a:hover
+{
+	color:#F60101;
+	text-decoration:none
+}
+
+.font03
+{
+    display:none
+}
+
+.menu A {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #6F8DB7; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.menu A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #13198D; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.menuWhite A {
+	FONT-SIZE: 12px; COLOR: #eeeeee; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.menuWhite A:hover {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.page-banner {
+	HEIGHT: 300px; WIDTH: 960px
+}
+
+.slider-switcher {
+	HEIGHT: 12px; POSITION: absolute; LEFT: 432px; TOP: 22px; WIDTH: 140px
+}
+.slider-switcher SPAN {
+	CURSOR: pointer; HEIGHT: 12px; BACKGROUND: url(../../Imgs/slider/slider-switcher-point.png) no-repeat left 50%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 12px 0px 0px; PADDING-RIGHT: 0px; WIDTH: 12px; _background: url(../../Imgs/slider/slider-switcher-point.gif) left no-repeat
+}
+.slider-switcher A:hover {
+	BACKGROUND: url(../../Imgs/slider/slider-switcher-point-hover.png) no-repeat left 50%; _background: url(../../Imgs/slider/slider-switcher-point-hover.gif) left no-repeat
+}
+.slider-switcher SPAN.active {
+	BACKGROUND: url(../../Imgs/slider/slider-switcher-point-hover.png) no-repeat left 50%; _background: url(../../Imgs/slider/slider-switcher-point-hover.gif) left no-repeat
+}
+
+
+/*下拉菜单样式*/
+#wrap{position:relative;top:0px;width:100%;height:81px;line-height:81px; z-index:9999}
+ul#menu li{float:left;display:block;height:81px;line-height:81px; text-align:left;color:#FFFFFF;font-size:16px}
+ul#menu li p{text-align:center}
+ul#menu li a{display:block;font-size:16px;height:66px; line-height:66px; padding-top:15px}
+ul#menu li a:hover,.red{background:url(../../Imgs/top_LineMenu.gif) repeat-x bottom}
+/*子菜单*/
+ul#menu li ul{position:absolute;top:81px;display:none;width:110px;border-top:none;background:#27539F}
+ul#menu li ul li a{height:37px;line-height:37px; color:#D4E7F8; padding-top:0px; font-size:14px}
+ul#menu li ul li a:hover{color:#FFFFFF;font-size:14px; background:#FF0000}
+ul#menu li ul li{height:37px;line-height:37px;float:left; width:110px; text-align:center}
+ul#menu li ul li a:hover{background:#DA251D!important;color:#FFF!important;}
+
+.menuON{background:#27539F!important;color:#FFFFFF!important;}
+.menuON a{color:#FFF}
+
+.td01{width:100%; height:25px; padding-top:7px; background:#DDDDDD; border-bottom:1px solid #CCC}
+.td02 p{font-size:18px; line-height:15pt; margin-top:20px; text-align:left}
+.td02 ul{margin-left:18px; margin-top:10px; font-size:14px; line-height:24px; text-align:left}
+.td03{background:#F6F6F7 url(../../Imgs/bgLine_Bottom.gif) top repeat-x; height:200px}
+.td05{width:100%}
+.td05 div{width:990px; text-align:left}
+.td06{background:#B4D4E3 url(../../Imgs/themeBg_02.jpg) no-repeat center; border-bottom:1px solid #A5CADC; height:240px}
+.td07{background:#F6F6F7 url(../../Imgs/bgLine_Bottom.gif) top repeat-x; height:80px}
+.td08{background:#B4D4E3 url(../../Imgs/themeBg_01.jpg) no-repeat center; border-bottom:1px solid #A5CADC; height:240px}
+.td09{width:180px; text-align:left}
+
+.div01{width:990px; text-align:left; font-size:13px}
+.div02{float:right}
+.div03{width:2px; height:40px; margin-top:4px; background:#CCCCCC}
+.div04{float:right; margin-top:40px}
+.div05{background:url(../../Imgs/bgLine_01.gif) center repeat-x; height:40px}
+.div06{position:absolute; margin-left:125px; line-height:20px}
+.div07{width:990px; height:auto; margin-top:40px; margin-bottom:50px; text-align:left}
+.div08{position:absolute; margin-left:300px; width:690px; font-size:14px; line-height:24px}
+.div09{position:absolute; margin-left:540px; margin-top:100px}
+.div10{position:absolute; margin-left:70px; margin-top:6px; line-height:18px; width:80px}
+.div11{margin-top:50px; margin-bottom:50px}
+.div12{position:absolute; margin-left:690px; width:300px; height:115px; background:#F9F9F9; border:1px solid #E5E5E5; border-radius:8px; font-size:14px; line-height:28px}
+.div12 p{text-align:center}
+.div13{background:#AAA url(../../Imgs/icon_03.png) 13px 16px no-repeat; width:60px; height:60px; margin-left:120px; margin-top:-30px; position:absolute; border-radius:30px}
+.div14{position:absolute; margin-left:345px; width:300px; height:115px; background:#F9F9F9; border:1px solid #E5E5E5; border-radius:8px; font-size:14px; line-height:28px}
+.div14 p{text-align:center}
+.div15{background:#AAA url(../../Imgs/icon_02.png) 15px 14px no-repeat; width:60px; height:60px; margin-left:120px; margin-top:-30px; position:absolute; border-radius:30px}
+.div16{width:300px; height:115px; background:#F9F9F9; border:1px solid #E5E5E5; border-radius:8px; font-size:14px; line-height:28px; text-align:left}
+.div16 p{text-align:center}
+.div17{background:#AAA url(../../Imgs/icon_01.png) 15px 9px no-repeat; width:60px; height:60px; margin-left:120px; margin-top:-30px; position:absolute; border-radius:30px}
+.div18{position:absolute; margin-left:240px; margin-top:15px; width:750px}
+.div19{position:absolute; margin-left:480px; margin-top:46px}
+.div20{width:206px; height:190px; background:#EEE; border:1px solid #DDD; border-radius:8px}
+.div21{width:990px; height:auto; margin-top:50px; margin-bottom:50px}
+.div22{width:990px; font-size:16px; line-height:30px}
+.div22 ul li{font-size:18px; line-height:24pt}
+.div23{width:990px; font-size:16px; line-height:30px}
+.div23 ul li{font-size:16px; line-height:20pt; margin-bottom:8px; padding-left:40px; background:url(../../Imgs/icon_li.png) 20px 8px no-repeat}
+
+.h1{text-align:left; font-size:32px; margin-bottom:30px; line-height:32pt}
+.h2{text-align:left; font-size:36px; font-weight:bold; margin-bottom:15px; line-height:36pt}
+.h3{text-align:left; font-size:36px; line-height:36pt; margin-bottom:14px; margin-top:8px}
+.h4{text-align:left; font-size:36px; line-height:36pt; margin-bottom:30px}
+
+.p01{font-size:18px}
+.p02{font-size:12px; color:#888888; margin-top:18px; line-height:16pt}
